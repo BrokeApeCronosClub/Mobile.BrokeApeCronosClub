@@ -7,7 +7,7 @@ export default function Navbar() {
     const address = useAddress();
     return (
         <div className={styles.navbar}>
-            <Link href="/page" className={styles.navIcon}>
+            <Link href="https://cronoscan.com/token/0x3e68ea1588e32e51d98dbda6ea05128513ecc713" className={styles.navIcon}>
                 <Image src={"/cronos-icon.png"} alt="" width={31} height={41}/>
                 <p className={styles.navIconLabel}>Cronos</p>
             </Link>
